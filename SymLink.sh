@@ -14,7 +14,7 @@ if [ ! -f "$VEGGIE_HOME/FileList" ]; then
 fi
 
 echo Any existing configuration files will be moved to the
-echo Before-Veggieshell directory.  
+echo \"Before-Veggieshell\" directory after this script finishes.
 
 mkdir -p Before-Veggieshell
 
